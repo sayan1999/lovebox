@@ -47,16 +47,15 @@ pip3 install modulename
 
 ## Configuration
 1. Navigate into lovebox/src/. Run 
-```
+bash```
 chmod +x lovebox
 ./lovebox
 ```
 ## If app doesn't start ethier your rhythmbox db file location is different or your playlist file is missing. (Follow these instructions to fix it)
 2. There is an example json file as lovebox/src/lovebox.json which will act as your actual playlist file in a json format. The entire file is a key-value pairs of generes as key and array of corresponding song names as value of that key. Edit and add the song names to your choice.
 3. Find out your rhythmbox xml db filepath (usually <~/.local/share/rhythmbox/rhythmdb.xml>); open lovebox/src/env.py file in editing mode and edit the 2nd line as RHYTHMBOXXMLPATH=<Rhythmbox_xml_db_filepath_string_within_quotes>.
-4. Run lovebox and do as the console says.
-Resolve the modulenotfound error by 
+4. Run lovebox and do as the console says. Resolve the modulenotfound error by running
 bash```
-pip3 install modulename
+pip3 install <modulename>
 ```
 5. (Optional) add <path to lovebox/src> to your PATH variable and use this command from any directory. You can also write a desktop file (as given in the examples folder, first add src directory to your path)and put it in your home/applications folder to have a full fledged application use. 
