@@ -41,7 +41,7 @@ Rhythmbox, Python3 and import modules
 
 ```
 sudo apt install python3.8 python3-pip
-pip3 install modulename
+pip3 install <modulename>
 ```
 
 ## Configuration
