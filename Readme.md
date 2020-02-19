@@ -38,7 +38,6 @@ Not only queuing custom playlist but Lovebox brings you many other features:
 
 ## Dependencies
 Rhythmbox, Python3 and import modules
-
 bash```
 sudo apt install python3.8 python3-pip
 pip3 install modulename
