@@ -1,7 +1,9 @@
+![Lovebox](src/examples/lovebox.png?raw=true "Lovebox")
+
 # Lovebox
 A wrapper easy-to-use for playlist queueing over rhythmbox in linux based system.
 
-![Alt text](src/examples/lovebox.png?raw=true "Preview of Lovebox")
+![Preview](src/examples/preview.png?raw=true "Preview of Lovebox")
 
 # Why lovebox?
 features:
