@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Lovebox
+Comment=A custom Playlist Player
+Exec=lovebox
+Icon=examples/lovebox.png
+Terminal=true
