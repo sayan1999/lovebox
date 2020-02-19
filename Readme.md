@@ -43,7 +43,7 @@ pip3 install <modulename>
 ## Configuration
 1. Navigate into lovebox/src/.
 2. There is an example json file as lovebox/src/lovebox.json which will act as your actual playlist file in a json format. The entire file is a key-value pairs of generes as key and array of corresponding song names as value of that key. Edit and add the song names to your choice.
-3. Find out your rhythmbox xml db filepath (usually <~/.local/share/rhythmbox/rhythmdb.xml>); open lovebox/src/env.py file in editing mode and edit the 2nd line as RHYTHMBOXXMLPATH=<rhythmbox xml db filepath string within quotes>.
+3. Find out your rhythmbox xml db filepath (usually <~/.local/share/rhythmbox/rhythmdb.xml>); open lovebox/src/env.py file in editing mode and edit the 2nd line as RHYTHMBOXXMLPATH=<Rhythmbox_xml_db_filepath_string_within_quotes>.
 4. Run lovebox and do as the console says.
 Resolve the modulenotfound error by 
 bash```
