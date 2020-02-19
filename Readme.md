@@ -8,7 +8,7 @@ features:
 2. Crash handling: If no match found for a title, app doesn't crash. It continues after a log report.
 
 3. Wide utils:
-Not only queuing custom playlist but many other utils you will be availed of as following by lovebox:
+Not only queuing custom playlist but many other utils you will be availed of as following by lovebox:<pre>
 
            playlist
 0    rhythmic-hindi
@@ -27,7 +27,7 @@ Not only queuing custom playlist but many other utils you will be availed of as 
 "stop" to stop rhythmbox and exit
 "exit" to exit console
 "add" to enqueue new song
-"addlist" to add songs in newqueue field of playlist file 
+"addlist" to add songs in newqueue field of playlist file </pre>
 
 ## Dependencies
 Rhythmbox, Python3 and import modules
