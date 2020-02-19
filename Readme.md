@@ -1,6 +1,8 @@
 # Lovebox
 A wrapper easy-to-use for playlist queueing over rhythmbox in linux based system.
 
+![Alt text](src/examples/lovebox.png?raw=true "Preview of Lovebox")
+
 # Why lovebox?
 features:
 1. Closest match method: It has a closest match method to find the nearest song method, so if you know the song put it in the config file (lovebox.json) and run it.
