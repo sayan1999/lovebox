@@ -35,6 +35,7 @@ Not only queuing custom playlist but Lovebox brings you many other features:
 "add" to enqueue new song
 "addlist" to add songs in newqueue field of playlist file
 ```
+4. The python console provides tab completion utils for above inputs.
 
 ## Dependencies
 Rhythmbox, Python3 and import modules
