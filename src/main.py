@@ -36,7 +36,7 @@ def enqueue(data, songlist, titles):
 				print("----------------Playing  "+matches[0]+"--------------------")
 				STARTED=True
 		except IndexError:
-			print("No match for requested song :(")
+			print("\t\t\t!!No match for " + title + " :(!!")
 			continue		
 
 # main
