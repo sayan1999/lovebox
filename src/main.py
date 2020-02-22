@@ -19,6 +19,27 @@ def complete(text, state):
                 return cmd
             else:
                 state -= 1
+def add_one(data, songlist, title):
+	global STARTED
+
+	matches=get_close_matches(title, songlist, n=10)
+	if not len(matches):
+		print("\t\t\t!!Sorry :(  No match for " + title + "!!")
+		return
+	print(dict(enumerate(matches)))
+	index=eval(input("Choose one (Enter 99 to cancel): "))
+	try:
+		songlocation=data[data['song']==matches[index]]['location'].iloc[0]
+		if STARTED:
+			sysrun('rhythmbox-client --enqueue \"'+songlocation+"\" &")
+			print("----------------Queued  "+matches[index]+"--------------------")
+		else:
+			sysrun('rhythmbox-client --play-uri=\"'+songlocation+"\" &")
+			print("----------------Playing  "+matches[index]+"--------------------")
+			STARTED=True
+	except IndexError:
+		print("Playlist no. out of bound.")
+
 
 def enqueue(data, songlist, titles):
 	shuffle(titles)
@@ -115,7 +136,7 @@ while(True):
 
 	if(index=="add"):
 		songname=str(input("Enter song name: "))
-		enqueue(data, songlist, [songname])
+		add_one(data, songlist, songname)
 		continue
 
 	if(index=="addlist"):
